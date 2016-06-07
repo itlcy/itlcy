@@ -34,13 +34,6 @@ public class slideMenu extends FrameLayout{
 		mainView=getChildAt(1);
 		 menuWidth = menuView.getLayoutParams().width;
 	}
-	/*@Override
-	protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-		super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-		menuView.measure(menuWidth, heightMeasureSpec);
-		mainView.measure(widthMeasureSpec, heightMeasureSpec);
-		 
-	}*/
 	@Override
 	public boolean onInterceptTouchEvent(MotionEvent ev) {
 		// TODO Auto-generated method stub
